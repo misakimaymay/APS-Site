@@ -1,0 +1,82 @@
+body {
+    height: 100vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0e033f;
+    background-color:white;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    flex-direction: column;
+}
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    width: 306px;
+}
+
+#main {
+    display: flex;
+    margin: auto;
+    box-sizing: border-box;
+    align-items: center; 
+    justify-content: center;
+}
+
+#titulo {
+    font-family: "Eater", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30;
+    color: rgb(0, 0, 0);
+}
+
+.apresentacao_destaque {
+    font-family: "Cascadia Code", sans-serif;
+    color: #ad0707;
+}
+
+.apresentacao_texto {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24;
+    padding-bottom: 40px
+}
+
+.site_form {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24;
+    padding-top: 38px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.button {
+    background-color: #22d4fd;
+    padding: 4%;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 16px;
+
+}
+.imagem {
+    width: 450px;
+}
+.header {
+    color:#800404;
+    width: 1872px;
+    background-color: #800404;
+}
+
+footer {
+    color:#800404;
+    width: 1872px;
+    background-color: #800404;
+}
